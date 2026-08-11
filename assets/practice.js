@@ -17,12 +17,7 @@ function renderStarList(targetId) {
       <summary>${item.q}</summary>
       <div class="body">
         <p><span class="tag">Tip</span> ${item.tip}</p>
-        <div class="star-grid">
-          <div><strong>S</strong> ${item.answer.S}</div>
-          <div><strong>T</strong> ${item.answer.T}</div>
-          <div><strong>A</strong> ${item.answer.A}</div>
-          <div><strong>R</strong> ${item.answer.R}</div>
-        </div>
+        ${item.fullAnswerHtml || ""}
       </div>
     </details>
   `).join("");
@@ -34,7 +29,7 @@ function renderSituationalList(targetId) {
   el.innerHTML = INTERVIEW_BANK.situational.map((item) => `
     <details class="qa">
       <summary>${item.q}</summary>
-      <div class="body"><p>${item.answer}</p></div>
+      <div class="body">${item.answer}</div>
     </details>
   `).join("");
 }
@@ -60,16 +55,11 @@ function createPracticeDeck(mode) {
     return bank.star.map((x) => ({
       type: "STAR",
       q: x.q,
-      a: `<div class="star-grid">
-        <div><strong>S</strong> ${x.answer.S}</div>
-        <div><strong>T</strong> ${x.answer.T}</div>
-        <div><strong>A</strong> ${x.answer.A}</div>
-        <div><strong>R</strong> ${x.answer.R}</div>
-      </div>`
+      a: x.fullAnswerHtml || `<p>${x.spoken || ""}</p>`
     }));
   }
   if (mode === "situational") {
-    return bank.situational.map((x) => ({ type: "Situational", q: x.q, a: `<p>${x.answer}</p>` }));
+    return bank.situational.map((x) => ({ type: "Situational", q: x.q, a: x.answer }));
   }
   if (mode === "rapid") {
     return bank.rapidFire.map((x) => ({ type: "Rapid fire", q: x.q, a: `<p>${x.answer}</p>` }));

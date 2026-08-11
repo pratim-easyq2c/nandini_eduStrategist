@@ -12,9 +12,10 @@ After Pages is enabled, open:
 
 - `index.html` — briefing & fit map
 - `client.html` — parent consult scripts
-- `star.html` — STAR behavioural bank
-- `situational.html` — scenario bank
+- `star.html` — STAR behavioural bank (spoken model answers + S/T/A/R)
+- `situational.html` — scenario bank (exact say / steps / close)
 - `practice.html` — flashcard practice mode
+- `webinar-notes.html` — Year 12 “Winning Start” webinar quick-reference notes
 - `cheat-sheet.html` — day-of one-pager
 
 ## Local preview
