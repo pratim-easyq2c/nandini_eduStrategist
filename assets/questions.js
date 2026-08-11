@@ -77,114 +77,42 @@ window.INTERVIEW_BANK = {
     {
       id: "x1",
       q: "A Year 11 parent says tutoring hasn’t helped. Their child is demotivated and ‘behind’. How would you run the first consult?",
-      say: "Thank you for sharing that. It sounds like you’ve already invested effort, so my job isn’t to add more of the same — it’s to find what’s blocking progress and build a clearer plan.",
-      steps: [
-        "Listen first: goals (marks/confidence/pathway), history of support, weekly capacity, what ‘behind’ means concretely.",
-        "Diagnose barriers: missing content vs weak study skills vs organisation vs motivation/wellbeing.",
-        "Explain Kalibrate-Ed difference: strategy + execution + independence, not endless content re-teaching.",
-        "Propose a 2–4 week roadmap: one priority focus, tracker, checkpoints, and ownership (parent / student / strategist).",
-        "Book a review date and define what success looks like in measurable terms."
-      ],
-      close: "By the end of this first month, you’ll see a clearer routine, reduced overwhelm, and evidence of progress in one priority skill area — then we expand.",
-      answer: ""
+      spoken: "I would start by acknowledging the effort they’ve already put in, then I’d listen carefully before offering any plan. First I’d clarify what ‘behind’ means — marks, confidence, or pathway — and what’s been tried. Then I’d diagnose whether the barrier is content, study skills, organisation, or motivation. I’d explain that my role is strategy and independence, not more of the same tutoring. I’d propose a short 2–4 week roadmap with one priority focus, clear ownership, and a review date, so they leave with a measurable next step."
     },
     {
       id: "x2",
       q: "A top student wants 99+ ATAR but is overloaded with sport and burnout risk. What do you advise?",
-      say: "I respect the ambition. Before we lock a 99+ target, we need to test whether the lifestyle cost is one you’re willing to sustain for a year.",
-      steps: [
-        "Run a SMART check: why this goal, importance 1–10, what they’re willing to sacrifice.",
-        "Map non-negotiables: training, recovery, family, sleep.",
-        "Prioritise high-leverage subjects/assessments; cut low-value busywork.",
-        "Protect recovery as strategy — burnout destroys ranking potential.",
-        "Set mid-term review points to adjust goal/effort with logic, not panic after one poor mark."
-      ],
-      close: "We can pursue an ambitious target, but only through a sustainable system. A brilliant plan you can’t maintain is not a strategy.",
-      answer: ""
+      spoken: "I would respect the ambition, then I’d test whether the goal is sustainable. First I’d run a SMART check — why this target, how important it is, and what they’re willing to sacrifice. Then I’d map non-negotiables like training, sleep and recovery. I’d prioritise high-leverage subjects and assessments, cut low-value busywork, and protect recovery as part of the strategy. I’d set mid-term review points so we adjust with logic, not panic after one poor mark. My advice would be: we can pursue an ambitious ATAR only through a system they can actually maintain."
     },
     {
       id: "x3",
       q: "A student ‘does past papers’ but marks aren’t improving. What’s your approach?",
-      say: "If hours are high and marks are flat, the issue is usually process quality, not effort. We need to stop reverse-engineering and rebuild the preparation sequence.",
-      steps: [
-        "Audit what ‘doing papers’ actually means: timed? marked? feedback used?",
-        "Check foundations: syllabus inventory, study notes, exam notes.",
-        "Rebuild order: inventory → notes → targeted practice → timed simulations → feedback tracker.",
-        "Track improvement by question type/error pattern, not hours spent.",
-        "Teach forward problem-solving; ban answer-first habits in practice."
-      ],
-      close: "Within two to three cycles we should see fewer repeated errors and clearer score movement on timed work.",
-      answer: ""
+      spoken: "I would treat flat marks despite high hours as a process problem, not a motivation problem. First I’d audit what ‘doing papers’ actually means — timed, marked, and feedback used, or just reverse-engineering answers. Then I’d rebuild the sequence: syllabus inventory, study notes, exam notes, targeted practice, then timed simulations. I’d track improvement by question type and error pattern, not hours spent. Within two to three cycles, I’d expect fewer repeated errors and clearer movement on timed work."
     },
     {
       id: "x4",
       q: "Two assessments due the same week. How do you prioritise with the student?",
-      say: "Same-week clashes are normal in Year 11–12. We prioritise with logic — weighting, task type, and weak spots — not comfort.",
-      steps: [
-        "Pull assessment notifications: dates, weighting, task nature (hand-in vs in-class).",
-        "Finish hand-in tasks earlier; keep in-class test revision closer to the exam date.",
-        "If weights are similar, prioritise the weaker recent subject.",
-        "Set start dates and checkpoints in an assessment tracker.",
-        "Protect short daily review so neither subject collapses."
-      ],
-      close: "You’ll walk into both assessments prepared because we sequenced the work intentionally, not reactively.",
-      answer: ""
+      spoken: "I would prioritise with logic, not comfort. First I’d pull the assessment details — dates, weighting, and whether each task is a hand-in or an in-class test. Then I’d finish hand-ins earlier and keep in-class revision closer to the exam date. If weights are similar, I’d prioritise the weaker recent subject. I’d put start dates and checkpoints into an assessment tracker and protect short daily review so neither subject collapses. The student should walk into both assessments prepared because we sequenced the work intentionally."
     },
     {
       id: "x5",
       q: "An EAL Year 10 student freezes in Maths worded questions. How do you support?",
-      say: "Freezing on worded questions is often language load plus confidence, not a lack of mathematical ability. We separate those layers.",
-      steps: [
-        "Diagnose: can they do the same maths without dense wording?",
-        "Pre-teach command terms and annotation habits (underline given/asked).",
-        "Use visual scaffolds and worked examples; reduce cognitive load early.",
-        "Gradually increase independence and timed practice.",
-        "Celebrate process wins to rebuild participation confidence."
-      ],
-      close: "The goal is that they can decode the question independently and attempt challenging problems without shutting down.",
-      answer: ""
+      spoken: "I would separate language load from mathematical ability. First I’d check whether they can do the same maths without dense wording. Then I’d pre-teach command terms and annotation habits — underline what’s given and what’s asked. I’d use visual scaffolds and worked examples early, then gradually increase independence and timed practice. I’d also celebrate process wins to rebuild confidence. The goal is that they can decode the question themselves and attempt challenging problems without shutting down."
     },
     {
       id: "x6",
       q: "A parent asks: ‘Why aren’t you just tutoring Maths content?’ How do you respond?",
-      say: "That’s a fair question. Content tutoring helps when the only gap is missing content. For many students, more content actually increases overwhelm.",
-      steps: [
-        "Acknowledge the value of good tutors for content catch-up.",
-        "Name other common barriers: organisation, exam process, motivation systems, learning habits.",
-        "Explain strategist role: diagnose, design efficient trajectory, coach execution, build independence.",
-        "Offer coordination: if content deficit is real, we target it surgically or work alongside a tutor.",
-        "Redirect to outcomes: skills, results, mindset — with measurable checkpoints."
-      ],
-      close: "My aim is that your child eventually needs less external support, not more of it forever.",
-      answer: ""
+      spoken: "I would say that’s a fair question. First I’d acknowledge that good content tutoring helps when the only gap is missing content. Then I’d explain that many students are also blocked by organisation, exam process, motivation systems, or learning habits — and more content can increase overwhelm. I’d describe my role as diagnosing the real barrier, designing an efficient trajectory, coaching execution, and building independence. If a content gap is real, I’d target it surgically or coordinate with a tutor. I’d close by saying my aim is that their child eventually needs less external support, not more forever."
     },
     {
       id: "x7",
       q: "You notice a student may need special provisions or wellbeing support. What do you do?",
-      say: "I stay in my lane as an education strategist. If I notice patterns that may need specialist support, I raise them carefully with the parent and guide proper pathways.",
-      steps: [
-        "Document observations factually (attention, anxiety behaviours, energy) without diagnosing.",
-        "Share calmly with parent; recommend school counsellor/careers advisor/GP as appropriate.",
-        "Encourage early exploration of school provisions/documentation processes where relevant.",
-        "Adjust the learning system immediately: shorter blocks, routines, reduced overload.",
-        "Never promise NESA provisions or clinical outcomes."
-      ],
-      close: "We support the learning plan while the family pursues the right professional channels.",
-      answer: ""
+      spoken: "I would stay in my lane as an education strategist. First I’d document observations factually — attention, anxiety behaviours, energy — without diagnosing. Then I’d raise them calmly with the parent and recommend the right pathway, such as the school counsellor, careers adviser, or GP. I’d encourage early exploration of school provisions where relevant, and I’d adjust the learning system immediately with shorter blocks and less overload. I would never promise NESA provisions or clinical outcomes. We support the learning plan while the family pursues the right professional channels."
     },
     {
       id: "x8",
       q: "How would you report progress to a parent after one month?",
-      say: "I’ll keep the update short, evidence-based and action-focused — what changed, what’s stuck, and what we do next.",
-      steps: [
-        "Restate goals agreed at intake.",
-        "Report three indicators: academic skills, results evidence, mindset/habits.",
-        "Show actions completed vs planned (accountability).",
-        "Name what’s working and one bottleneck.",
-        "Present next-month plan with clear asks for parent and student."
-      ],
-      close: "You’ll always know where you stand: no vague reassurance, just a clear dashboard and next steps.",
-      answer: ""
+      spoken: "I would keep the update short, evidence-based and action-focused. First I’d restate the goals we agreed at intake. Then I’d report three indicators: academic skills, results evidence, and mindset or habits. I’d show what was completed versus planned, name what’s working and one bottleneck, and present the next-month plan with clear asks for parent and student. I’d want them to always know where they stand — no vague reassurance, just a clear dashboard and next steps."
     }
   ],
   clientScripts: [
@@ -251,13 +179,11 @@ window.INTERVIEW_BANK = {
   ]
 };
 
-// Build combined display text for situational cards/practice
+// Build display text for situational cards/practice (interview voice to Kelly)
 INTERVIEW_BANK.situational.forEach((item) => {
   item.answer = `
-    <p><strong>Say:</strong> “${item.say}”</p>
-    <p><strong>Then do:</strong></p>
-    <ol>${item.steps.map((s) => `<li>${s}</li>`).join("")}</ol>
-    <p><strong>Close:</strong> “${item.close}”</p>
+    <p><strong>Model answer (speak this):</strong></p>
+    <p>${item.spoken}</p>
   `;
 });
 
