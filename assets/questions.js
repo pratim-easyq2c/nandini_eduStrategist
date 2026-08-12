@@ -121,6 +121,12 @@ window.INTERVIEW_BANK = {
       q: "How would you report progress to a parent after one month?",
       spoken: "I would keep the update short, evidence-based and action-focused. First I’d restate the goals we agreed at intake. Then I’d report three indicators: academic skills, results evidence, and mindset or habits. I’d show what was completed versus planned, name what’s working and one bottleneck, and present the next-month plan with clear asks for parent and student. I’d want them to always know where they stand — no vague reassurance, just a clear dashboard and next steps.",
       example: "For example, when partnering with anxious parents I've translated assessment evidence into plain language: here's the pattern, here's what changed this fortnight, here's one bottleneck, here's next week's ownership. That same evidence → implication → next action style is how I'd report as a Kalibrate-Ed strategist."
+    },
+    {
+      id: "x9",
+      q: "A Year 10 student keeps procrastinating and misses study blocks. What would you do?",
+      spoken: "I would treat procrastination as a systems problem, not laziness. First I’d find out what they’re avoiding — is it overwhelm, unclear tasks, fear of failure, or poor energy management? Then I’d shrink the first step until it feels easy to start, schedule short focused blocks with a visible tracker, and build accountability check-ins. I’d teach a simple start routine — open materials, one task, five minutes — and celebrate completion of the process, not just results. My goal is that they begin reliably without waiting for motivation.",
+      example: "For example, I've worked with students who looked unmotivated but were actually overwhelmed by vague revision goals. Once we broke work into one daily priority, a timed start ritual, and a simple tracker, they began completing study blocks consistently and needed less prompting from parents or teachers."
     }
   ],
   clientScripts: [

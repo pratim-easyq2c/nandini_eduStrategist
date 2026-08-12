@@ -134,6 +134,8 @@ ul.clean li, ol.clean li { margin: 0.35rem 0; }
 .script-block {
   font-size: 1.05rem; background: #fff; border: 1px dashed var(--line); border-radius: 16px; padding: 14px;
 }
+.intro-block p { margin: 0 0 1rem; }
+.intro-block p:last-child { margin-bottom: 0; }
 .tag { display: inline-block; padding: 3px 8px; border-radius: 8px; background: #eef3f8; color: var(--muted); font-size: 0.8rem; font-weight: 700; }
 
 footer {
